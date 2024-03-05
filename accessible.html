@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav>
+    <nav aria-label="Primary">
       <ul>
         <li><a href="#">Brand</a></li>
         <li><a href="#">Features</a></li>
@@ -15,7 +15,7 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Contact us</a></li>
       </ul>
-      <form action="#" method="get">
+      <form action="#" method="get" role="search">
         <label for="search">Search:</label>
         <input type="text" id="search" name="search" placeholder="Search" />
         <button type="submit">Search</button>
@@ -45,9 +45,11 @@
         with the other club members.
       </p>
 
-      <figure>
+      <figure aria-labelledby="mio-caption ritsu-caption">
         <img src="assets/img/Mio-bass.gif" alt="Mio Akiyama playing bass guitar" />
         <img src="assets/img/Ritsu-drums.gif" alt="Ritsu Tainaka on drums" />
+        <figcaption id="mio-caption">Mio Akiyama playing bass guitar</figcaption>
+        <figcaption id="ritsu-caption">Ritsu Tainaka on drums</figcaption>
       </figure>
 
       <h2>Hokago Tea Time: Music and Friendship</h2>
