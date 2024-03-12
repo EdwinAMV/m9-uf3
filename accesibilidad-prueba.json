@@ -1,0 +1,15 @@
+{
+  "name": "Search",
+  "role": "text leaf",
+  "actions": ["Click ancestor"],
+  "value": "",
+  "nodeCssSelector": "body > nav:nth-child(1) > form:nth-child(2) > button:nth-child(3)#text",
+  "nodeType": 3,
+  "description": "",
+  "keyboardShortcut": "",
+  "childCount": 0,
+  "indexInParent": 0,
+  "states": ["opaque", "enabled", "sensitive"],
+  "children": [],
+  "attributes": { "explicit-name": "true" }
+}

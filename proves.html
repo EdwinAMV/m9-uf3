@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pruebas de Accesibilidad</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="accessible.html">Index</a></li>
+      <li><a href="#">Accessibility Testing</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <form action="#" method="get" role="search">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search" placeholder="Search" />
+      <button type="submit">Search</button>
+    </form>
+  </nav>
+
+  <article>
+    <h1>Accessibility Testing</h1>
+    <div class="image-gallery">
+      <figure>
+        <img src="assets/img/act-3/accesibilidad-error.png" alt="Accessibility Testing 1">
+        <figcaption>Accessibility Testing 1</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/img/act-3/test-colors.png" alt="Accessibility Testing 2">
+        <figcaption>Accessibility Testing 2</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/img/act-3/wcag-test.png" alt="Accessibility Testing 3">
+        <figcaption>Accessibility Testing 3</figcaption>
+      </figure>
+    </div>
+  </article>
+</body>
+</html>
